@@ -2258,12 +2258,12 @@ hr {
     color: #fff
 }
 
-.post-content p:first-child::first-letter {
+/* .post-content p:first-child::first-letter {
     font-size: 5em;
     float: left;
     line-height: .9em;
     margin-right: 16px
-}
+} */
 
 .post-navigation .new-post:hover button {
     color: var(--color-primary) !important
@@ -7220,23 +7220,23 @@ textarea.form-control-lg {
 }
 
 .text-start {
-    text-align: left !important
+    text-align: start !important
 }
 
 [dir=ltr] .ltr\:text-start {
-    text-align: left !important
+    text-align: start !important
 }
 
 [dir=rtl] .rtl\:text-start {
-    text-align: left !important
+    text-align: start !important
 }
 
 .text-end {
-    text-align: right !important
+    text-align: end !important
 }
 
 [dir=rtl] .rtl\:text-end {
-    text-align: right !important
+    text-align: end !important
 }
 
 .text-center {
@@ -8369,7 +8369,7 @@ textarea.form-control-lg {
     }
 
     .sm\:text-start {
-        text-align: left !important
+        text-align: start !important
     }
 
     .sm\:text-center {
@@ -9114,15 +9114,15 @@ textarea.form-control-lg {
     }
 
     .lg\:text-start {
-        text-align: left !important
+        text-align: start !important
     }
 
     [dir=ltr] .ltr\:lg\:text-start {
-        text-align: left !important
+        text-align: start !important
     }
 
     [dir=rtl] .rtl\:lg\:text-end {
-        text-align: right !important
+        text-align: end !important
     }
 
     .lg\:rounded-1-5 {

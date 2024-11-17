@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us - Bader Technology </title>
+    <meta name="theme-color" content="#178d72">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- preload head styles -->
+    <link rel="preload" href="assets/css/unicons.min.css" as="style">
+    <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style">
+    <link rel="preload" href="assets/css/magic-cursor.min.css" as="style">
+
+    <!-- preload footer scripts -->
+    <link rel="preload" href="assets/js/jquery.min.js" as="script">
+    <link rel="preload" href="assets/js/scrollmagic.min.js" as="script">
+    <link rel="preload" href="assets/js/swiper-bundle.min.js" as="script">
+    <link rel="preload" href="assets/js/anime.min.js" as="script">
+    <link rel="preload" href="assets/js/typed.min.js" as="script">
+    <link rel="preload" href="assets/js/tilt.min.js" as="script">
+    <link rel="preload" href="assets/js/split-type.min.js" as="script">
+    <link rel="preload" href="assets/js/prettify.min.js" as="script">
+    <link rel="preload" href="assets/js/gsap.min.js" as="script">
+    <link rel="preload" href="assets/js/magic-cursor.js" as="script">
+    <link rel="preload" href="assets/js/data-attr-helper.js" as="script">
+    <link rel="preload" href="assets/js/swiper-helper.js" as="script">
+    <link rel="preload" href="assets/js/splitype-helper.js" as="script">
+    <link rel="preload" href="assets/js/anime-helper.js" as="script">
+    <link rel="preload" href="assets/js/typed-helper.js" as="script">
+    <link rel="preload" href="assets/js/tilt-helper.js" as="script">
+    <link rel="preload" href="assets/js/marquee.js" as="script">
+    <link rel="preload" href="assets/js/uikit-components-bs.js" as="script">
+    <link rel="preload" href="assets/js/app.js" as="script">
+
+    <!-- app head for bootstrap core -->
+    <script src="assets/js/app-head-bs.js"></script>
+
+    <!-- include uni-core components -->
+    <link rel="stylesheet" href="assets/css/uni-core.min.css">
+
+    <!-- include styles -->
+    <link rel="stylesheet" href="assets/css/unicons.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/prettify.min.css">
+    <link rel="stylesheet" href="assets/css/magic-cursor.min.css">
+
+    <!-- include main style -->
+    <link rel="stylesheet" href="assets/css/theme-three.min.purge.css">
+
+    <!-- include scripts -->
+    <script src="assets/js/uni-core-bundle.min.js"></script>
+</head>
+
+<body class="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 overflow-x-hidden">
+
+    <!--  Cookies modal -->
+    <div id="uc-gdpr-notification"
+        class="uc-gdpr-notification uc-notification min-w-1/2 uc-notification-bottom-left lg:m-2">
+        <div
+            class="uc-notification-message vstack lg:hstack items-end gap-2 lg:gap-4 lg:p-3 bg-white text-dark border rounded-1-5 min-w-1/2">
+            <a id="uc-close-gdpr-notification" class="uc-notification-close text-dark" data-uc-close></a>
+            <div class="vstack">
+                <h2 class="h5 ft-primary fw-bold -ls-1 m-0 text-dark">GDPR Compliance</h2>
+                <p class="fs-6 mt-1">We use cookies to ensure you get the best experience on our website. By continuing
+                    to use our site, you accept our use of cookies, <a class='uc-link text-underline'
+                        href='/html/Bader/main/page-privacy'>privacy policy</a> and <a class='uc-link text-underline'
+                        href='/html/Bader/main/page-terms'>terms of service</a>.</p>
+            </div>
+            <button class="btn btn-sm btn-primary px-2" id="uc-accept-gdpr">Accept</button>
+        </div>
+    </div>
+
+    <!--  Menu panel -->
+    <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
+        <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
+            <header class="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
+                <div class="uc-logo">
+                    <a class='h5 text-none text-gray-900 dark:text-white' href='/html/Bader/main/'>
+                        <img class="w-100px" src="assets/images/logo.svg" alt="Bader">
+                    </a>
+                </div>
+                <button
+                    class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all"
+                    type="button">
+                    <i class="unicon-close"></i>
+                </button>
+            </header>
+            <hr class="w-100">
+
+            <div class="panel">
+                <ul class="nav-y gap-narrow fw-medium fs-6" data-uc-nav="">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="uc-active">
+                        <a href="javascript:;">About us</a>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+                <ul class="social-icons nav-x mt-4">
+                    <li>
+                        <a href="#"><i class="unicon-logo-medium icon-2"></i></a>
+                        <a href="#"><i class="unicon-logo-x-filled icon-2"></i></a>
+                        <a href="#"><i class="unicon-logo-instagram icon-2"></i></a>
+                        <a href="#"><i class="unicon-logo-pinterest icon-2"></i></a>
+                    </li>
+                </ul>
+                <div class="d-none py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900" data-uc-sticky="position: bottom">
+                    <div class="vstack gap-1">
+                        <span class="fs-7 opacity-60">Select theme:</span>
+                        <div class="darkmode-trigger" data-darkmode-switch="">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider fs-5"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Bottom Actions Sticky -->
+    <div class="backtotop-wrap position-fixed bottom-0 end-0 z-99 m-2 vstack">
+        <div class=" d-none darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white"
+            data-darkmode-toggle="">
+            <label class="switch">
+                <span class="sr-only">Dark mode toggle</span>
+                <input type="checkbox">
+                <span class="slider fs-5"></span>
+            </label>
+        </div>
+        <a class="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle" href="to_top" data-uc-backtotop>
+            <i class="icon-2 unicon-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Header start -->
+    <header class="uc-header header-six uc-navbar-sticky-wrap z-999"
+        data-uc-sticky="start: 1200px; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+        <nav class="uc-navbar-container lg:mt-3 rounded-0 lg:rounded-pill uc-navbar-float ft-tertiary z-1"
+            data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+            <div class="uc-navbar-main" style="--uc-nav-height: 80px">
+                <div class="container max-w-lg lg:max-w-950px xl:max-w-xl">
+                    <div class="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-gray-900 dark:text-white"
+                        data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <div class="uc-logo">
+                                <a class='panel text-none' href='/html/Bader/main/index-6'>
+                                    <img class="w-64px" src="assets/images/logo.svg" alt="Bader">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="uc-navbar-center">
+                            <ul class="uc-navbar-nav gap-3 xl:gap-5 d-none lg:d-flex fs-5 fw-medium"
+                                data-uc-scrollspy-nav="closest: li; offset: 40; scroll: true">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="uc-active">
+                                    <a href="javascript:;">About us</a>
+                                </li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="uc-navbar-right">
+                            <a class='btn btn-sm btn-primary px-3 d-none lg:d-inline-flex' href='../index.html'>
+                                <span>Bader Academy</span>
+                            </a>
+                            <a class="d-block lg:d-none" href="#uc-menu-panel" data-uc-navbar-toggle-icon
+                                data-uc-toggle></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header end -->
+
+    <!-- Wrapper start -->
+    <div id="wrapper" class="wrap">
+
+        <!-- Start Breadcrumb -->
+        <div data-anime="translateY: [-60, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 850; delay: 300;"
+            class="page-header panel vstack justify-center items-center gap-2 py-8 xl:py-10 mx-2 text-center rounded-2 bg-gray-800 dark:bg-gray-800">
+            <ul class="breadcrumb nav-x justify-center items-center gap-1 fs-7 m-0 fw-bold dark:text-white">
+                <li><img class="text-white dark:text-secondary icon-1" src="assets/images/icons/homepage.svg"
+                        alt="home-icon" data-uc-svg></li>
+                <li>
+                    <a href="index.html" class="text-white">
+                        Home
+                    </a>
+                </li>
+                <li><i class="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180 text-white"></i></li>
+                <li>
+                    <span class="opacity-50 text-white">
+                        About us
+                    </span>
+                </li>
+            </ul>
+            <h2 class="h4 md:h3 xl:h1 m-0 text-white">
+                About us
+            </h2>
+        </div>
+
+        <!-- Start About -->
+        <div class="section panel overflow-hidden"
+            data-anime="translateY: [60, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 850; delay: 300;">
+            <div class="section-outer panel py-6 lg:py-9">
+                <div class="container max-w-xl">
+                    <div class="section-inner panel vstack gap-3 sm:gap-6 lg:gap-9"
+                        data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100);">
+                        <div class="row child-cols-12 sm:child-cols-4 col-match gy-4 sm:gy-6 xl:gy-8 gx-2 xl:gx-4">
+                            <div class="col-12">
+                                <article class="post type-post panel rounded-3 p-3 bg-gray-50 dark:bg-gray-800">
+                                    <div class="panel row child-cols-12 md:child-cols-6 items-center g-3">
+                                        <div>
+                                            <figure
+                                                class="featured-image m-0 rounded ratio ratio-4x3 rounded lg:rounded-2 uc-transition-toggle overflow-hidden">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                                    src="assets/images/main3.png" alt="Bader image about">
+                                                <a class='position-cover' data-caption='Bader image about'
+                                                    href='javascript:;'></a>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <div class="vstack items-start gap-2 lg:gap-3">
+                                                <p
+                                                    class='post-category text-primary fw-normal text-none fw-bold fs-7 bg-primary text-white py-narrow px-1 rounded'>
+                                                    Know about us
+                                                </p>
+                                                <h3 class="h4 xl:h2 m-0 text-start m-0 lg:w-500px text-none">
+                                                    Bader Technology
+                                                </h3>
+                                                <p class="fs-6 lg:fs-5 lg:w-500px text-start md:d-block lg:d-block">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+                                                    asperiores architecto quaerat facilis mollitia et quam amet ipsum
+                                                    illo, nisi sed ratione, nulla similique recusandae consequatur,
+                                                    voluptates accusantium quod deserunt.
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+                                                    asperiores architecto quaerat facilis mollitia et quam amet ipsum
+                                                    illo, nisi sed ratione, nulla similique recusandae consequatur,
+                                                    voluptates accusantium quod deserunt.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section -->
+    </div>
+
+    <!-- Wrapper end -->
+
+    <!-- Footer start -->
+    <footer id="uc-footer" class="uc-footer panel overflow-hidden uc-dark">
+        <div class="footer-outer pb-4 lg:pb-6 dark:bg-gray-800 dark:text-white m-2 rounded-2 lg:rounded-3">
+            <div class="uc-footer-content pt-6 lg:pt-8">
+                <div class="container xl:max-w-xl">
+                    <div class="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
+                        <div class="uc-footer-widgets panel">
+                            <div class="row child-cols-6 md:child-cols col-match g-4">
+                                <div class="col-12 lg:col-6">
+                                    <div class="panel vstack items-start gap-3 xl:gap-4 lg:max-w-1/2">
+                                        <div>
+                                            <a href='javascript:;' style='width: 140px'>
+                                                <img class="text-primary w-150px" src="assets/images/logo.svg"
+                                                    alt="Bader">
+                                            </a>
+                                            <p class="mt-2">
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="d-inline-block">
+                                            <a href="#" class="hstack gap-1 text-none fw-medium">
+                                                <i class="icon icon-1 unicon-earth-filled"></i>
+                                                <span>English</span>
+                                                <span data-uc-drop-parent-icon=""></span>
+                                            </a>
+                                            <div class="p-2 bg-white dark:bg-gray-700 shadow-xs rounded w-150px"
+                                                data-uc-drop="mode: click; offset: 16; pos: bottom-center; boundary: !.uc-footer-widgets; animation: uc-animation-slide-top-small; duration: 150;">
+                                                <ul class="nav-y gap-1 fw-medium rtl:items-end">
+                                                    <li><a href="#en">English</a></li>
+                                                    <li><a href="#ar">العربية</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <ul class="nav-y gap-2 fw-medium">
+                                        <li class="fs-7 text-uppercase dark:text-gray-300">Quick Links</li>
+                                        <li><a href="javascript:;">About us</a></li>
+                                        <li><a href="javascript:;">Our Services</a></li>
+                                        <li><a href="../index.html">Bader Academy</a></li>
+                                    </ul>
+                                </div>
+                                <div class="d-none lg:d-block">
+                                    <ul class="nav-y flex-nowrap gap-2 fw-medium">
+                                        <li class="fs-7 text-uppercase dark:text-gray-300">Support</li>
+                                        <li>
+                                            Phone:
+                                            <a href="tel:+(966) 114443555">+(966) 114443555</a>
+                                        </li>
+                                        <li><span>E-mail:</span> <a
+                                                href="mailto:academy@badertech.com.sa">academy@badertech.com.sa</a></li>
+                                        <li>
+                                            <span>Location:</span> 7795 King Abdulaziz Rd - Al Yasmeen Dist ,RIYADH
+                                            13322 - 2058• KSA
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
+                            <p>All Rights Reserved Bader Technology, Developed and Designed by <a
+                                    href="https://begroup.com.sa">Be Group</a></p>
+                            <ul class="nav-x justify-center gap-2 text-gray-300">
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-x-filled"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon icon-2 unicon-logo-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer end -->
+
+    <!-- include jquery & bootstrap js -->
+    <script defer src="assets/js/jquery.min.js"></script>
+    <script defer src="assets/js/bootstrap.min.js"></script>
+
+    <!-- include scripts -->
+    <!-- load barba (UMD version) -->
+    <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+    <script defer src="assets/js/anime.min.js"></script>
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/scrollmagic.min.js"></script>
+    <script defer src="assets/js/typed.min.js"></script>
+    <script defer src="assets/js/tilt.min.js"></script>
+    <script defer src="assets/js/split-type.min.js"></script>
+    <script defer src="assets/js/prettify.min.js"></script>
+    <script defer src="assets/js/gsap.min.js"></script>
+    <script defer src="assets/js/magic-cursor.js"></script>
+    <script defer src="assets/js/data-attr-helper.js"></script>
+    <script defer src="assets/js/swiper-helper.js"></script>
+    <script defer src="assets/js/splitype-helper.js"></script>
+    <script defer src="assets/js/anime-helper.js"></script>
+    <script defer src="assets/js/typed-helper.js"></script>
+    <script defer src="assets/js/tilt-helper.js"></script>
+    <script defer src="assets/js/marquee.js"></script>
+    <script defer src="assets/js/uikit-components-bs.js"></script>
+
+    <!-- include app script -->
+    <script defer src="assets/js/app.js"></script>
+    <!-- init barba with a simple opacity transition -->
+    <!-- <script type="text/javascript">
+        barba.init({
+            transitions: [{
+                name: 'opacity-transition',
+                leave(data) {
+                    return gsap.to(data.current.container, {
+                        opacity: 0
+                    });
+                },
+                enter(data) {
+                    return gsap.from(data.next.container, {
+                        opacity: 0
+                    });
+                }
+            }],
+        });
+    </script> -->
+
+</body>
+
+</html>
